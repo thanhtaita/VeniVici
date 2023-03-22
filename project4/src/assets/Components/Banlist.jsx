@@ -1,4 +1,8 @@
-const Banlist = (details) => {
+const Banlist = ({ details, setDetails }) => {
+  const removeAttribute = (attribute) => {
+    const newAttribute = details.filter((detail) => detail !== attribute);
+    setDetails(newAttribute);
+  };
   return (
     <div className="banlist-container">
       <h3 className="banlist-title">Ban List</h3>
@@ -8,11 +12,16 @@ const Banlist = (details) => {
       <div className="banlist-details-container">
         {details && details.length > 0 ? (
           details.map((detail) => (
-            <button className="banlist-detail-each">{detail}</button>
+            <button
+              className="banlist-detail-each"
+              onClick={(e) => removeAttribute(e.target.textContent)}
+            >
+              {detail}
+            </button>
           ))
         ) : (
           <div>
-            <h3>Can't load details</h3>
+            <h3>No attribute yet</h3>
           </div>
         )}
       </div>

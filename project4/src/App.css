@@ -5,6 +5,63 @@
   text-align: center;
 }
 
+/* Main screen */
+.whole-container {
+  display: flex;
+  flex-direction: row;
+  gap: 11rem;
+}
 .main-object-img {
   width: 20rem;
+}
+
+.object-whole-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.main-title {
+  height: 2.5rem;
+}
+
+.object-details-btn {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Discover list */
+.discover-container {
+  background-color: rgba(240, 248, 255, 0.086);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.discover-objects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.discover-object-img {
+  width: 4rem;
+}
+
+.discover-object-details {
+  margin-top: 0rem;
+}
+/* Ban list */
+.banlist-container {
+  background-color: rgba(240, 248, 255, 0.086);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.banlist-details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.banlist-detail-each {
+  align-self: center;
 }
