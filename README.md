@@ -26,7 +26,7 @@ The following **additional** features are implemented:
 
 - [x] List anything else that you added to improve the site's functionality!
 
-## Video Walkthrough
+https://imgur.com/ZJhurIc
 
 Here's a walkthrough of implemented user stories:
 
@@ -34,7 +34,7 @@ Here's a walkthrough of implemented user stories:
 
 <!-- Replace this with whatever GIF tool you used! -->
 
-GIF created with ...
+GIF created with LiceCap
 
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
@@ -47,7 +47,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2023] [Tai Ta]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
